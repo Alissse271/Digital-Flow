@@ -1,0 +1,354 @@
+@media (max-width: 1440px) {
+    .portfolio_btn {
+        top: 150px;
+        right: 27px;
+    }
+}
+
+@media (max-width: 1330px) {
+    .about_company_info h2 {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 1240px) {
+    .container {
+        max-width: 1000px;
+    }
+    .about_company_info h2 {
+        font-size: 30px;
+    }
+    .about_company_info p {
+        line-height: 120%;
+        margin-bottom: 20px;
+    }
+    .about_company_info p:first-of-type {
+        margin-top: 20px;
+    }
+    .portfolio_image {
+        margin-left: 20px;
+    }
+    .advantages {
+        padding-top: 200px;
+        padding-bottom: 100px;
+    }
+    .advantage {
+        max-width: 400px;
+    }
+    .section_request {
+        flex-direction: column;
+        align-items: center;
+    }
+    .request_part {
+        justify-content: center;
+        background-size: cover;
+        width: 100%;
+    }
+    .request {
+        padding-bottom: 35px;
+        margin-right: 0;
+        margin-left: 10px;
+    }
+    .request h2 {
+        padding: 35px 0;
+    }
+    .section_request_separator {
+        width: 100%;
+        border: 1px solid #fff;
+    }
+    .special_offers_part {
+        justify-content: center;
+        width: 100%;
+    }
+    .special_offers {
+        max-width: 100%;
+    }
+    .special_offers h2 {
+        text-align: center;
+        padding-top: 25px;
+    }
+    .special_offers_cards {
+        margin-top: 50px;
+        margin-left: 0;
+        margin-bottom: 35px;
+    }
+}
+
+@media (max-width: 1160px) {
+    .portfolio_image {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .portfolio_btn {
+        position: relative;
+        top: 0;
+        left: 0;
+        margin: 20px 0;
+    }
+
+}
+@media (max-width: 1020px) {
+    .container {
+        max-width: 740px;
+    }
+    .first_section_title {
+        margin-top: 70px;
+        font-size: 60px;
+    }
+    .btn_offer {
+        margin-top: 50px;
+        margin-bottom: 300px;
+    }
+    .about_company {
+        flex-direction: column;
+    }
+    .image {
+        height: 400px;
+        width: 100%;
+    }
+    .image img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .about_company_block {
+        width: 100%;
+    }
+    .about_company_info {
+        padding-left: 40px;
+        padding-bottom: 20px;
+    }
+    .portfolio_section h2 {
+        margin: 30px 0;
+    }
+    .about_company_info h2, .about_company_info p {
+        text-align: left;
+    }
+    .advantage {
+        max-width: 100%;
+    }
+    .advantage:nth-last-child(2) {
+        margin-bottom: 60px;
+    }
+    .offers_section h2 {
+        padding-top: 30px;
+        padding-bottom: 50px;
+    }
+    .offer, .offer_info_btn {
+        width: 33.3%;
+        border-bottom: 1px solid #595959;
+        border-right: 1px solid #595959;
+    }
+    .offer:nth-child(5n) {
+        border-right: 1px solid #595959;
+    }
+    .offer:nth-child(3n) {
+        border-right: 1px solid transparent;
+    }
+    .offer:nth-last-child(3) {
+        border-bottom: 1px solid #595959;
+    }
+    .offer:nth-last-child(4) {
+        border-right: 1px solid transparent;
+    }
+    .offer:last-child {
+        border-right: 1px solid transparent;
+        border-bottom: 1px solid #595959;
+    }
+    .offer_info_btn {
+        order: 1;
+        border-bottom: 1px solid transparent;
+        border-left: 1px solid #595959;
+    }
+    .footer_info {
+        display: flex;
+        flex-wrap: wrap;
+        padding-top: 0;
+    }
+    .footer_info_card {
+        width: 50%;
+        padding-right: 40px;
+        margin-top: 40px;
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 90%;
+    }
+    .first_section_title {
+        line-height: 110%;
+        font-size: 30px;
+    }
+    .offers_section h2 {
+        font-size: 36px;
+    }
+    .offer_info {
+        margin: 26px 19px;
+    }
+    .offer_text p {
+        font-size: 12px;
+        line-height: 120%;
+    }
+    .offer_info_btn {
+        width: 100%;
+        border: 1px solid transparent;
+    }
+    .offer_btn {
+        margin: 30px 0;
+    }
+    .offers {
+        padding-bottom: 0px;
+    }
+
+    .advantages_section {
+        background-image: url(img/bg_advantages_cropped.jpg);
+    }
+    .advantages {
+        padding-top: 40px;
+        padding-bottom: 50px;
+    }
+    .advantages h2 {
+        font-size: 26px;
+        line-height: 110%;
+    }
+    .advantages_info {
+        margin-top: 60px;
+    }
+    .special_offers h2 {
+        font-size: 38px;
+    }
+
+    .special_offers_cards {
+        /* flex-wrap: wrap; */
+        justify-content: center;
+    }
+    .special_offer_card:nth {
+        margin: 0 10px;
+    }
+    .special_offer_card:last-child {
+        margin-right: 0;
+    }
+    input {
+        width: 420px;
+    }
+    .footer_info_card {
+        width: 100%;
+        padding-right: 10px;
+        margin-top: 20px;
+    }
+    .footer_social {
+        margin: 25px 0 30px;
+    }
+}
+
+@media (max-width: 622px) {
+        .special_offer_card:nth-child(3n) {
+            margin-top: 15px;
+        }
+        .special_offer_card {
+            margin: 0 20px;
+        }
+        .special_offers_cards {
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+}
+@media (max-width: 478px) {
+    .special_offers {
+        max-width: 100%;
+    }
+    .special_offers {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .special_offers_cards {
+        flex-direction: column;
+        margin-top: 30px;
+        margin-bottom: 0;
+    }
+    .special_offer_card {
+        margin-right: 0px;
+        margin-bottom: 15px;
+    }
+    .special_offer_card:nth-child(3n) {
+        margin-top: 0px;
+    }
+}
+
+@media (max-width: 425px) {
+    .container {
+        max-width: 350px;
+    }
+    .first_section_title {
+        margin-top: 40px;
+        font-size: 28px;
+        line-height: 20px;
+    }
+    .first_section_subtitle {
+        margin-top: 40px;
+    }
+    .btn_offer {
+        margin-top: 165px;
+        margin-bottom: 20px;
+    }
+    .image {
+        height: 200px;
+        width: 100%;
+    }
+    .portfolio_section h2 {
+        font-size: 38px;
+    }
+    .offers_section h2 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-size: 28px;
+    }
+    .offer, .offer_info_btn {
+        width: 50%;
+    }
+    .offer:nth-child(even) {
+        border-right: 1px solid transparent;
+    }
+    .offer:nth-child(odd) {
+        border-right: 1px solid #595959;
+    }
+    .offer:last-child {
+        border-right: 1px solid transparent;
+        border-bottom: 1px solid #595959;
+    }
+    .offer:nth-last-child(3) {
+        border-left: 1px solid transparent;
+    }
+    .offer_info {
+        margin: 16px 19px;
+    }
+    input {
+        width: 310px;
+    }
+    .special_offers h2 {
+        font-size: 28px;
+    }
+    .footer_info_card p {
+        font-size: 14px;
+    }
+    .footer_line {
+        margin-top: 5px;
+    }
+    .footer_info {
+        padding-left: 10px;
+    }
+    .footer_social {
+        flex-direction: column;
+        padding-left: 10px;
+    }
+    .footer_comp-name p {
+        margin-bottom: 20px;
+    }
+    .social_icon:first-child {
+        margin-left: 0;
+    }
+}
