@@ -1,7 +1,14 @@
 @media (max-width: 1440px) {
+    .portfolio_image {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
     .portfolio_btn {
-        top: 150px;
-        right: 27px;
+        position: relative;
+        top: 0;
+        left: 0;
+        margin: 20px 0;
     }
 }
 
@@ -74,20 +81,6 @@
     }
 }
 
-@media (max-width: 1160px) {
-    .portfolio_image {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    .portfolio_btn {
-        position: relative;
-        top: 0;
-        left: 0;
-        margin: 20px 0;
-    }
-
-}
 @media (max-width: 1020px) {
     .container {
         max-width: 740px;
@@ -247,6 +240,7 @@
 @media (max-width: 622px) {
         .special_offer_card:nth-child(3n) {
             margin-top: 15px;
+            margin-left: 0;
         }
         .special_offer_card {
             margin: 0 20px;
@@ -273,6 +267,7 @@
     .special_offer_card {
         margin-right: 0px;
         margin-bottom: 15px;
+        margin-left: 0;
     }
     .special_offer_card:nth-child(3n) {
         margin-top: 0px;

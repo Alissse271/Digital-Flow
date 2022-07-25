@@ -71,6 +71,11 @@ header {
     line-height: 58px;
 }
 
+.btn_offer img {
+    width: 12px;
+    height: 58px;
+}
+
 .about_company {
     display: flex;
     width: 100%;
@@ -404,12 +409,17 @@ input.user_message {
     color: #FFF;
 }
 
+.request_btn img {
+    width: 12px;
+    height: 55px;
+}
+
 .special_offers_part {
     width: calc(985/1920*100vw);
     /* max-width: 985px; */
     background: #000201;
     display: flex;
-    align-items: center;
+    /* align-items: center; */
 }
 
 .special_offers {
@@ -424,6 +434,7 @@ input.user_message {
     font-weight: 500;
     font-size: 48px;
     line-height: 59px;
+    padding-top: 173px;
     text-align: right;
     color: #FFF;
 }
