@@ -233,7 +233,7 @@
         margin-top: 20px;
     }
     .footer_social {
-        margin: 25px 0 30px;
+        padding: 25px 0 30px;
     }
 }
 
@@ -286,6 +286,11 @@
     .first_section_subtitle {
         margin-top: 40px;
     }
+
+    .offer_info_btn {
+        width: 100%;
+    }
+
     .btn_offer {
         margin-top: 165px;
         margin-bottom: 20px;
@@ -302,7 +307,7 @@
         padding-bottom: 20px;
         font-size: 28px;
     }
-    .offer, .offer_info_btn {
+    .offer {
         width: 50%;
     }
     .offer:nth-child(even) {
